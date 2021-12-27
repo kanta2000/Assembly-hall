@@ -27,6 +27,6 @@ production:
   encoding: utf8mb4
   charset: utf8mb4
   collation: utf8mb4_general_ci
-  host: <%= ENV[''] %>
+  host: <%= ENV['rds-mysql-server.ckwaustyzwlg.us-east-1.rds.amazonaws.com'] %>
   username: <%= ENV['root'] %>
   password: <%= ENV['Kanta0619'] %>
